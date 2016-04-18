@@ -71,7 +71,7 @@ hr {
 	color: #609cd3;
 }
 header {
-	background: url(header-bg.jpg) no-repeat center;
+	background: url(assets-path("header-bg.jpg")) no-repeat center;
 	background-size: cover;
 	width: 100%;
 	min-height: 530px;

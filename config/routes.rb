@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :products
+  resources :causes
+  resources :pictures
+  resources :categories
   devise_for :users, controllers: {sessions: 'sessions', registrations: 'registrations'}
   root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
