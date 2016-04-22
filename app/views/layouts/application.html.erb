@@ -27,6 +27,11 @@
 		     		<li><a href="#">Comprar</a></li>
 		     		<li><a href="#">Newsletter</a></li>
 		     		<li><a href="#">Miembro?</a></li>
+		     		<% if user_signed_in? %>
+		                <li class="hidden-lg"><a href="#"><%= current_user.User_name %></a></li>
+		                <li class="hidden-lg"><%= link_to('Mi perfil', edit_user_registration_path) %></li>
+		                <li class="hidden-lg"><%= link_to('Desconectar', destroy_user_session_path, :method => :delete) %></li>
+		            <% end %>
 		      </ul>
 		      <form class="navbar-form navbar-left" role="search">
 		        <div class="form-group">
@@ -36,7 +41,8 @@
 		      </form>
 		      <ul class="nav navbar-nav navbar-right">
 		        <% if user_signed_in? %>
-					<li class="dropdown">
+		        	<li><h1 class="cart-text"><%= render 'layouts/cart_text' %></h1></li>
+              		<li class="dropdown hidden-xs">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.User_name %><span class="caret"></span></a>
 			          <ul class="dropdown-menu">
 			            <li><%= link_to('Mi perfil', edit_user_registration_path) %></li>

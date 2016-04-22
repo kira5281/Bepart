@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :configure_permitted_parameters, if: :devise_controller?
   after_filter :store_location
+  helper_method :current_order
 
   def store_location
     # store last url - this is needed for post-login redirect to whatever the user last visited.
@@ -21,6 +22,14 @@ class ApplicationController < ActionController::Base
 
   def after_sign_in_path_for(resource)
       session[:previous_url] || root_path
+  end
+
+  def current_order
+    if !session[:order_id].nil?
+      Order.find(session[:order_id])
+    else
+      Order.new
+    end
   end
 
  protected
