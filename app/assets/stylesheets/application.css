@@ -21,6 +21,12 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: #555;
+	width: 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 300;
@@ -55,7 +61,7 @@ hr {
 	padding: 0;
 }
 .navbar-default {
-	background: rgba(0,0,0,.8);
+	background: rgba(51, 83, 159, 0.8);
 	border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -70,18 +76,20 @@ hr {
 .navbar-default .navbar-nav li a:hover{
 	color: #609cd3;
 }
-header {
-	background: url("header-bg.jpg") no-repeat center;
-	background-size: 100%;
-	width: 100%;
-	min-height: 530px;
-	padding-top: 100px;
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url("header.jpg") no-repeat center;
+    background-size: 100%;
 }
+
 header h1 {
 	color: white;
 	margin-bottom: 15px;
 	letter-spacing: 1px;
 	margin-top: 20%; 
+	font-size: 100px;
 }
 .centrado {
 	margin: 40px 0;
@@ -102,162 +110,87 @@ i {
 .condi p {
 	margin-left: 40px;
 }
-/*-- login --*/
-.login-right{
-	float:right;
-	width:51%;
+/*-- carrito --*/
+.pucart {
+  margin: 0;
+  margin-top: 3px;
 }
-.login-right h3{
-    color: #48cfc1;
-    font-weight: normal;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 17px;
+/*-- fin carrito --*/
 
+/*-- Espaciado de todas las paginas --*/
+.smargin {
+  margin: 4%
 }
-.login-left {
-    float: left;
-    width: 42%;
-    margin-top: 10%;
+/*-- fin espaciado de todas las paginas --*/
+
+/*-- conf area historias --*/
+.text-faded {
+    color: rgba(255,255,255,.7);
 }
-.login-right input[type="text"] ,.login-right input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    font-weight: normal;
-    background: none;
-    border: 1px solid #E6E4E4;
-    color: #D2D1D1;
-    outline: none;
-    font-size: 14px;
-    margin-top: 20px;
-    font-family: 'Varela Round', sans-serif;
+
+.no-padding {
+    padding: 0;
 }
-.login-right h4{
-	color:#48cfc1;
-	font-size:12px;
-	margin:20px 0;
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
 }
-.login-right h4 a{
-	color:#48cfc1;
-	text-decoration:none;
-}
-.login-right h4 a:hover{
-	color:#A9A8A8;
-}
-.login-right input[type="submit"] {
-  background:#48cfc1;
-  color: #fff;
-  font-size: 20px;
-  border: none;
-  width: 100%;
-  outline: none;
-  -webkit-appearance:none;
-  padding: 10px 15px;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
- font-family: 'Varela Round', sans-serif;
- margin-top:20px;
-}
-.login-right input[type="submit"]:hover {
-	background:#30C3B5;
-}
-.login-grids p {
-    font-size: 12px;
-    margin-top: 25px;
-	color:#A9A8A8;
-}
-.login-grids p span{
-	color:#48cfc1;	
-}
-.login-left ul li{
-	list-style-type:none;
-	display:block;
-    margin: 22px 0;
-    font-size: 16px;
-}
-.login-left ul li a{
-    padding: 9px 0;
+
+.portfolio-box .portfolio-box-caption {
     display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
     text-align: center;
     color: #fff;
-	text-decoration:none;
+    opacity: 0;
+    background: rgba(64, 97, 240, 0.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
-.login-left ul li a:hover{
-	opacity:.7;
-}
-.login-left ul li a.fb{
-	background:#3b5998;
-}
-.login-left ul li a.goog{
-	background:#dc4e41;
-}
-.login-left ul li a.linkin{
-	background:#00a0dc;
-}
-.login-left ul li a.fb i{
-    background: url(social.png) no-repeat -45px 0px;
-    width: 24px;
-    height: 23px;
-    display: inline-block;
-    vertical-align: text-bottom;
-    margin: 0;
-}
-.login-left ul li a.goog i{
-    background: url(social.png) no-repeat -84px 0px;
-    width: 40px;
-    height: 23px;
-    display: inline-block;
-    vertical-align: text-bottom;
-    margin: 0;
-}
-.login-left ul li a.linkin i{
-    background: url(social.png) no-repeat -3px 0px;
-    width: 32px;
-    height: 23px;
-    display: inline-block;
-    vertical-align: text-bottom;
-    margin: 0;
-}
-/*-- //login --*/
-/*-- sign up --*/
 
-.single-bottom input[type="checkbox"] {
-  display: none;
-}
-.single-bottom input[type="checkbox"]+label {
-    position: relative;
-    padding-left: 31px;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    color: #A9A8A8;
-	font-weight:normal;
-}
-.single-bottom input[type="checkbox"]+label span:first-child {
-	width: 14px;
-    height: 14px;
-    display: inline-block;
-    border: 2px solid #48cfc1;
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
-    left: 0;
-    top: 4px;
-}
-.single-bottom input[type="checkbox"]:checked+label span:first-child:before {
-  content: "";
-  background:url(mark1.png)no-repeat;
-  position: absolute;
-  left: -1px;
-  top: -1px;
-  font-size: 10px;
-  width:16px;
-  height:16px;
-  }
-.modal-info {
+    top: 50%;
     width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
 }
-.modal-header {
-	border: none;
-	min-height: 16.42857143px;
-	padding: 15px;
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+/*-- fin conf area historias --*/
+
+.seleccion {
+	background-color: white;
 }
