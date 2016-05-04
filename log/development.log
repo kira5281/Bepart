@@ -16063,3 +16063,255 @@ Started GET "/assets/application.self-6f6c628a13767f223f7b183955c9aa0f89aefb4923
 
 
 Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-03 16:42:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 13:37:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (599.5ms)
+  Rendered partials/_login_form.html.erb (191.6ms)
+  Rendered partials/_login.html.erb (193.2ms)
+  Rendered partials/_register_form.html.erb (6.0ms)
+  Rendered partials/_register.html.erb (7.1ms)
+Completed 200 OK in 1116ms (Views: 1096.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 13:37:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 13:52:06 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.9ms)
+  Rendered partials/_login_form.html.erb (3.2ms)
+  Rendered partials/_login.html.erb (3.7ms)
+  Rendered partials/_register_form.html.erb (3.5ms)
+  Rendered partials/_register.html.erb (4.0ms)
+Completed 200 OK in 81ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 13:52:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 13:52:28 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+  Rendered partials/_login_form.html.erb (14.2ms)
+  Rendered partials/_login.html.erb (20.9ms)
+  Rendered partials/_register_form.html.erb (10.3ms)
+  Rendered partials/_register.html.erb (15.2ms)
+Completed 200 OK in 115ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 13:52:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 13:53:00 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+  Rendered partials/_login_form.html.erb (3.0ms)
+  Rendered partials/_login.html.erb (3.4ms)
+  Rendered partials/_register_form.html.erb (3.0ms)
+  Rendered partials/_register.html.erb (3.4ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 13:53:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 13:53:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.1ms)
+  Rendered partials/_login_form.html.erb (4.0ms)
+  Rendered partials/_login.html.erb (4.5ms)
+  Rendered partials/_register_form.html.erb (2.9ms)
+  Rendered partials/_register.html.erb (3.5ms)
+Completed 200 OK in 154ms (Views: 153.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 13:53:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 13:54:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.5ms)
+  Rendered partials/_login_form.html.erb (16.9ms)
+  Rendered partials/_login.html.erb (17.5ms)
+  Rendered partials/_register_form.html.erb (3.6ms)
+  Rendered partials/_register.html.erb (4.2ms)
+Completed 200 OK in 158ms (Views: 157.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d49cb612e0cc76a12950ad1f0fc5b96269afd5bbc0a1d8125e9c303031db71d0.css?body=1" for 127.0.0.1 at 2016-05-04 13:54:44 -0500
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 13:54:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:00:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+  Rendered partials/_login_form.html.erb (11.7ms)
+  Rendered partials/_login.html.erb (16.1ms)
+  Rendered partials/_register_form.html.erb (3.4ms)
+  Rendered partials/_register.html.erb (16.5ms)
+Completed 200 OK in 146ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:00:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:00:50 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+  Rendered partials/_login_form.html.erb (5.3ms)
+  Rendered partials/_login.html.erb (13.8ms)
+  Rendered partials/_register_form.html.erb (13.0ms)
+  Rendered partials/_register.html.erb (15.4ms)
+Completed 200 OK in 107ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:00:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:08:16 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+  Rendered partials/_login_form.html.erb (3.9ms)
+  Rendered partials/_login.html.erb (8.6ms)
+  Rendered partials/_register_form.html.erb (6.3ms)
+  Rendered partials/_register.html.erb (6.9ms)
+Completed 200 OK in 157ms (Views: 156.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4da15c65dcbc56f79b983f12c1051365bf53010658b3c53079aba1ac6bd364a.css?body=1" for 127.0.0.1 at 2016-05-04 14:08:16 -0500
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:08:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:10:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+  Rendered partials/_login_form.html.erb (6.6ms)
+  Rendered partials/_login.html.erb (14.0ms)
+  Rendered partials/_register_form.html.erb (11.3ms)
+  Rendered partials/_register.html.erb (12.5ms)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:10:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:16:35 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.4ms)
+  Rendered partials/_login_form.html.erb (3.4ms)
+  Rendered partials/_login.html.erb (12.4ms)
+  Rendered partials/_register_form.html.erb (12.9ms)
+  Rendered partials/_register.html.erb (16.4ms)
+Completed 200 OK in 165ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f1902327c0f5b3d5f35c7b476af4d1b070d0f5fd86a3bdaf06e45bdd36c22203.css?body=1" for 127.0.0.1 at 2016-05-04 14:16:35 -0500
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:16:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:22:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.8ms)
+  Rendered partials/_login_form.html.erb (48.4ms)
+  Rendered partials/_login.html.erb (51.9ms)
+  Rendered partials/_register_form.html.erb (5.7ms)
+  Rendered partials/_register.html.erb (9.3ms)
+Completed 200 OK in 230ms (Views: 229.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c46bc07872c5a4372c1bda1855bbf368ab0263829bb77a65f60331385eaf2895.css?body=1" for 127.0.0.1 at 2016-05-04 14:22:22 -0500
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:22:23 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:28:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+  Rendered partials/_login_form.html.erb (45.6ms)
+  Rendered partials/_login.html.erb (46.4ms)
+  Rendered partials/_register_form.html.erb (19.8ms)
+  Rendered partials/_register.html.erb (20.4ms)
+Completed 200 OK in 164ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:28:21 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2016-05-04 14:36:41 -0500
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."active" = ?  [["active", "t"]]
+  Rendered products/_product_row.html.erb (14.4ms)
+  Rendered products/_product_row.html.erb (1.4ms)
+  Rendered products/_product_row.html.erb (0.6ms)
+  Rendered products/index.html.erb within layouts/application (44.1ms)
+  Rendered partials/_login_form.html.erb (3.0ms)
+  Rendered partials/_login.html.erb (3.6ms)
+  Rendered partials/_register_form.html.erb (6.4ms)
+  Rendered partials/_register.html.erb (7.1ms)
+Completed 200 OK in 206ms (Views: 119.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-05-04 14:37:00 -0500
+Processing by SessionsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ywnKmaWfJDs992L1FRJFRzvnk1IMBwrLGkzAAKfxpNhKq+/nzFdJAmYGh60vGuTyUYiPHx1xfXIMuNFsdXFuDw==", "user"=>{"email"=>"kira5281@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "kira5281@gmail.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-05-03 21:42:49.542009"], ["current_sign_in_at", "2016-05-04 19:37:00.214930"], ["sign_in_count", 23], ["updated_at", "2016-05-04 19:37:00.216031"], ["id", 1]]
+  [1m[35m (3.3ms)[0m  commit transaction
+Completed 201 Created in 181ms (Views: 0.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:37:00 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_cart_text.html.erb (1.3ms)
+  Rendered partials/_login_form.html.erb (18.2ms)
+  Rendered partials/_login.html.erb (19.2ms)
+  Rendered partials/_register_form.html.erb (14.5ms)
+  Rendered partials/_register.html.erb (19.4ms)
+Completed 200 OK in 202ms (Views: 201.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:37:00 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2016-05-04 14:37:07 -0500
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."active" = ?  [["active", "t"]]
+  Rendered products/_product_row.html.erb (0.8ms)
+  Rendered products/_product_row.html.erb (0.5ms)
+  Rendered products/_product_row.html.erb (0.7ms)
+  Rendered products/index.html.erb within layouts/application (17.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_cart_text.html.erb (2.1ms)
+  Rendered partials/_login_form.html.erb (4.0ms)
+  Rendered partials/_login.html.erb (4.6ms)
+  Rendered partials/_register_form.html.erb (6.6ms)
+  Rendered partials/_register.html.erb (7.2ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-04 14:52:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (7.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_cart_text.html.erb (1.3ms)
+  Rendered partials/_login_form.html.erb (3.5ms)
+  Rendered partials/_login.html.erb (4.4ms)
+  Rendered partials/_register_form.html.erb (6.4ms)
+  Rendered partials/_register.html.erb (7.2ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at 2016-05-04 14:52:37 -0500

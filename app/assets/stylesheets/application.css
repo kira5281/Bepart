@@ -61,7 +61,7 @@ hr {
 	padding: 0;
 }
 .navbar-default {
-	background: rgba(51, 83, 159, 0.8);
+	background: rgba(8, 43, 126, 0.8);
 	border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -150,6 +150,10 @@ i {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.portfolio-box .img-responsive {
+    display: inline-block;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
