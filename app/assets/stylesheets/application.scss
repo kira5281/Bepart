@@ -80,7 +80,7 @@ hr {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: url("header.jpg") no-repeat center;
+    background-image: url(asset-path('header.jpg'));
     background-size: 100%;
 }
 
