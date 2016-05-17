@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Manofacturers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Video</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @manofacturers.each do |manofacturer| %>
+      <tr>
+        <td><%= manofacturer.name %></td>
+        <td><%= manofacturer.video %></td>
+        <td><%= link_to 'Show', manofacturer %></td>
+        <td><%= link_to 'Edit', edit_manofacturer_path(manofacturer) %></td>
+        <td><%= link_to 'Destroy', manofacturer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Manofacturer', new_manofacturer_path %>

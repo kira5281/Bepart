@@ -24,7 +24,7 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li><a href="#">Acerca de</a></li>
-		     		<li><a href="#">Comprar</a></li>
+		     		<li><%= link_to 'Comprar', products_path %></li>
 		     		<li><a href="#">Newsletter</a></li>
 		     		<li><a href="#">Miembro?</a></li>
 		     		<% if user_signed_in? %>
